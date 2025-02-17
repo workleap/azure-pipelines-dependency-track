@@ -1,7 +1,7 @@
 # Dependency Track for Azure DevOps Pipelines
 Azure DevOps extension for submitting BOM reports to Dependency-Track
 
-> Note: BOM files with Byte-Order-Marks are not supported by this extension. This is an issue with Depenedency Track prior to version 4.7.1. [See this issue for the Dependency Track fix](https://github.com/DependencyTrack/dependency-track/issues/2312) and [this issue for this extension.](https://github.com/gsoft-inc/azure-pipelines-dependency-track/issues/28)
+> Note: BOM files with Byte-Order-Marks are not supported by this extension. This is an issue with Depenedency Track prior to version 4.7.1. [See this issue for the Dependency Track fix](https://github.com/DependencyTrack/dependency-track/issues/2312) and [this issue for this extension.](https://github.com/workleap/azure-pipelines-dependency-track/issues/28)
 
 ## Parameters
 ### Base Settings
@@ -106,7 +106,7 @@ steps:
 
 ## Thresholds Usage Example
 This example finishes the pipeline with a warning if the number of low vulnerabilities surpasse zero.
-![Low Threshold Surpassed Warning](https://raw.githubusercontent.com/gsoft-inc/azure-pipelines-dependency-track/master/images/pipelineThresholdWarning.png)
+![Low Threshold Surpassed Warning](https://raw.githubusercontent.com/workleap/azure-pipelines-dependency-track/master/images/pipelineThresholdWarning.png)
 ```yaml
 trigger:
 - master
@@ -144,7 +144,7 @@ steps:
 Dependency Track for Azure DevOps Pipelines can be installed from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=GSoft.dependency-track-vsts).
 
 ## License
-Copyright © 2023, GSoft inc. This code is licensed under the Apache License, Version 2.0. You may obtain a copy of this license at https://github.com/gsoft-inc/gsoft-license/blob/master/LICENSE.
+Copyright © 2023, GSoft inc. This code is licensed under the Apache License, Version 2.0. You may obtain a copy of this license at https://github.com/workleap/gsoft-license/blob/master/LICENSE.
 
 Dependency-Track is Copyright (c) Steve Springett. All Rights Reserved.
 https://github.com/DependencyTrack/dependency-track
