@@ -69,6 +69,6 @@
   },
   "repository": {
     "type": "git",
-    "uri": "https://github.com/gsoft-inc/azure-pipelines-dependency-track"
+    "uri": "https://github.com/workleap/azure-pipelines-dependency-track"
   }
 }
