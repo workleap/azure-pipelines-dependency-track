@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gsoft-inc/azure-pipelines-dependency-track.git"
+    "url": "git+https://github.com/workleap/azure-pipelines-dependency-track.git"
   },
   "author": "Edouard Shaar",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/gsoft-inc/azure-pipelines-dependency-track/issues"
+    "url": "https://github.com/workleap/azure-pipelines-dependency-track/issues"
   },
-  "homepage": "https://github.com/gsoft-inc/azure-pipelines-dependency-track#readme",
+  "homepage": "https://github.com/workleap/azure-pipelines-dependency-track#readme",
   "devDependencies": {
     "minimist": "^1.2.8"
   }
